@@ -46,6 +46,7 @@
             this.buttonValidate.TabIndex = 10;
             this.buttonValidate.Text = "VALIDATE";
             this.buttonValidate.UseVisualStyleBackColor = true;
+            this.buttonValidate.Click += new System.EventHandler(this.buttonValidate_Click);
             // 
             // textBoxLS
             // 
